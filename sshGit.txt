@@ -1,0 +1,7 @@
+To use ssh protocol , to read or write repos from github:
+1)check if there are ssh key:value pairs file already created.
+2)if not , then generate a new ssh key and two files will be created which will the
+public key(.pub) and private key files.
+3)in the same step, give a passphrase to protect your private key.
+4)now add the private key file to the ssg-agent.
+5)add the public ssh key to your github account
